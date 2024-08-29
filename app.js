@@ -6,7 +6,7 @@ function Greetings() {
   return (
     <div>
       <h1>Hello World with React</h1>
-      <Button/>
+      <div>Hello</div>
     </div>
   );
 }
