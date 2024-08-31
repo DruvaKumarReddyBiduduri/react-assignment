@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-
   <body id="body">
     <h1>Hello World with HTML</h1>
     <div id="container"></div>
@@ -15,19 +14,7 @@
       heading.innerText = "Hello world with DOM";
       document.getElementById("container").appendChild(heading);
     </script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://unpkg.com/babel-standalone@6/babel.js"
-    ></script>
 
-    <script type="text/babel" src="./app.js"></script>
+    <script type="module" src="./app.js"></script>
   </body>
 </html>

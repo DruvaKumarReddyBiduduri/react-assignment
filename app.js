@@ -1,6 +1,5 @@
-function Button() {
-  return <button>Click</button>;
-}
+import React from "react";
+import { createRoot } from "react-dom/client";
 
 function Greetings() {
   return (
@@ -11,4 +10,4 @@ function Greetings() {
   );
 }
 
-ReactDOM.render(<Greetings />, document.getElementById("root"));
+createRoot(document.getElementById("root")).render(<Greetings />);
